@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celulares - Página de Ejemplo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        section, article, aside, form {
+            padding: 20px;
+            margin: 20px;
+        }
+        img {
+            max-width: 15%;
+            height: auto;
+        }
+        form label {
+            display: block;
+            margin-top: 10px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+        }
+        form button {
+            display: block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header de la página principal -->
+    <header>
+        <h1>Bienvenidos a la Página de Celulares</h1>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Sobre Nosotros</a></li>
+            <li><a href="#models">Modelos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Encabezado general de la página -->
+    <header>
+        <img src="logo_celulares.png" alt="Logo de Celulares" style="width: 150px;">
+        <h2>Encabezado General de Celulares</h2>
+        <h3>Encuentra el celular de tus sueños</h3>
+    </header>
+
+    <!-- Sección principal del contenido -->
+    <section id="models">
+        <h2>Modelos Destacados</h2>
+        <p>Aquí encontrarás una selección de nuestros modelos de celulares más destacados.</p>
+        
+        <div>
+            <h3>Celular 1</h3>
+            <img src="celular2.png" alt="Celular 1">
+            <p>El Celular 1 ofrece una pantalla AMOLED de 6.5 pulgadas, cámara de 48MP y batería de larga duración.</p>
+        </div>
+        
+        <div>
+            <h3>Celular 2</h3>
+            <img src="celular2.png" alt="Celular 2">
+            <p>El Celular 2 se destaca por su diseño elegante, procesador rápido y cámara frontal de 32MP para selfies perfectos.</p>
+        </div>
+    </section>
+
+    <!-- Artículo independiente -->
+    <article>
+        <h2>Artículo sobre la Evolución de los Celulares</h2>
+        <p>Desde los primeros teléfonos móviles hasta los smartphones actuales, la evolución de los celulares ha sido impresionante. Inicialmente, los celulares solo permitían hacer llamadas, pero con el avance de la tecnología, ahora podemos navegar por internet, tomar fotos de alta calidad y utilizar aplicaciones para casi cualquier cosa.</p>
+        <img src="historia_celulares.jpeg" alt="Evolución de los Celulares">
+    </article>
+
+    <!-- Contenido aparte o complementario -->
+    <aside>
+        <h3>Noticias Relacionadas</h3>
+        <p>Últimas noticias del mundo de la tecnología móvil:</p>
+        <ul>
+            <li><a href="#noticia1">Lanzamiento del nuevo modelo X</a></li>
+            <li><a href="#noticia2">Actualización del sistema operativo Y</a></li>
+            <li><a href="#noticia3">Tendencias en tecnología móvil para el próximo año</a></li>
+        </ul>
+        
+        <div>
+            <h4>Lanzamiento del nuevo modelo X</h4>
+            <p>El nuevo modelo X ha sido lanzado con características revolucionarias, incluyendo una pantalla plegable y conectividad 5G.</p>
+            <img src="modelo_x.jpeg" alt="Modelo X">
+        </div>
+        
+        <div>
+            <h4>Actualización del sistema operativo Y</h4>
+            <p>El sistema operativo Y se ha actualizado para ofrecer mayor seguridad y nuevas funciones, mejorando la experiencia del usuario.</p>
+            <img src="sistema_operativo_y.jpeg" alt="Sistema Operativo Y">
+        </div>
+        
+        <div>
+            <h4>Tendencias en tecnología móvil para el próximo año</h4>
+            <p>Se espera que el próximo año traiga avances en inteligencia artificial, realidad aumentada y baterías de mayor duración.</p>
+            <img src="tendencias_tecnologia.jpeg" alt="Tendencias en Tecnología Móvil">
+        </div>
+    </aside>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2024 Todos los derechos reservados. Página de Celulares.</p>
+    </footer>
+
+    <!-- Formulario de contacto -->
+    <form action="#" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message"></textarea><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
